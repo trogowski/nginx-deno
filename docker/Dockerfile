@@ -1,6 +1,6 @@
 FROM trogowski/nginx-brotli:1.21.4.1
 
-ENV DENO_VERSION=1.2.0
+ENV DENO_VERSION=1.16.1
 
 RUN apt-get -qq update \
  && apt-get -qq install -y --no-install-recommends curl ca-certificates unzip \
