@@ -1,4 +1,4 @@
-FROM trogowski/nginx-brotli:1.19.1.1
+FROM trogowski/nginx-brotli:1.21.4.1
 
 ENV DENO_VERSION=1.2.0
 
